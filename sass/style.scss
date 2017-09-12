@@ -10,10 +10,11 @@ body {
 }
 
 /*kolory
+#FF6600 - pomarańczowy glowny
 #3914AF - ikony i podkreślenia
 #04396C - active navbar i .tlo
 #5DE100 - buttons zielony
-#E7003E	- buttons rózowy
+#	- buttons rózowy
 #020323 - backgroung flota
 */
 
@@ -23,23 +24,23 @@ body {
 .btn-default:active,
 .btn-default:focus {
 	border-radius: 30px;
-	background-color: #E7003E;	/*#5DE100;*/
+	background-color: #FF6600;	/*#5DE100;*/
 	color: #FFFFFF;			/*#5DE100;*/
-	border-color: #E7003E;
+	border-color: #FF6600;
 	padding: 8px 15px;
 	min-width: 120px; 
 }
 
 .btn:hover {
-	background-color: #960028;	/*#5DE100;*/
+	background-color: #E05A00;	/*#5DE100;*/
 	color: #FFFFFF;
-	border-color: #960028;
+	border-color: #E05A00;
 }
 
 .btn-default:hover {
-	background-color: #960028;	/*#5DE100;*/
+	background-color: #E05A00;	/*#5DE100;*/
 	color: #FFFFFF;
-	border-color: #960028;
+	border-color: #E05A00;
 }
 
 .text-center {
@@ -55,11 +56,15 @@ body {
 	margin: 0;
 }
 
+.navbar-brand > img {
+	height: 50px;
+}
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
 	color: white;
-	border-bottom: #E7003E 1px solid;
+	border-bottom: #FF6600 1px solid;
 }
 
 .navbar-header, .navbar-collapse > ul > li {
@@ -77,7 +82,7 @@ body {
 #menu .navbar-nav a:hover {
 	color: white;
 	background-color: rgba(0,0,0, 0);
-	border-bottom: #E7003E 1px solid;
+	border-bottom: #FF6600 1px solid;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -126,7 +131,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 .tlo > #box {
@@ -179,6 +184,11 @@ body {
 
 .icon-down-open {
 	font-size: 15px;
+}
+
+.btn > a {
+	text-decoration: none;
+	color: white;
 }
 /*					Sections					   */
 /*=================================================*/
@@ -252,7 +262,7 @@ section.dark-gray {
 
 .oferta .row > div > i {
 	font-size: 4.5em;
-	color: #E7003E;
+	color: #FF6600;
 }
 
 .oferta .row-offer-item > div > p {
@@ -278,6 +288,10 @@ section.dark-gray {
 	max-width: 100%;
 	height: auto;
 }
+
+#marg-bot {
+	margin-bottom: 100px;
+}
 /*					Flota						   */
 /*=================================================*/
 .subtitle {
@@ -296,7 +310,7 @@ section.dark-gray {
 .subtitle > div {
 	width: 60px;
 	margin: 20px auto;
-	background-color: #E7003E;
+	background-color: #FF6600;
 	height: 2px;
 }
 
@@ -332,7 +346,7 @@ section.dark-gray {
 }
 
 .flota .flota-main-item #flota-image-1 {
-	background-image: url("../img/top4.jpg");
+	background-image: url("../img/flota1.jpg");
 }
 
 .flota .flota-main-item #flota-image-2 {
@@ -351,7 +365,7 @@ section.dark-gray {
 }
 
 .flota .flota-main-item h2.flota-active {
-	border-bottom: 3px solid #E7003E;
+	border-bottom: 3px solid #FF6600;
 }
 
 .flota .flota-main-item > .details {
@@ -500,7 +514,7 @@ blockquote {
 
 blockquote > i.icon-quote-right {
 	font-size: 2em;
-	/*color: #E7003E;*/
+	/*color: #FF6600;*/
 	float: left;
 	margin-right: 20px;
 }
@@ -543,7 +557,7 @@ blockquote > footer {
 }
 
 .contact-block .contact-title > div {
-	border-bottom: solid 2px #E7003E;
+	border-bottom: solid 2px #FF6600;
 	width: 40px;
 }
 
@@ -560,7 +574,7 @@ blockquote > footer {
 }
 
 .contact-block .contact-row a:hover {
-	color: #E7003E;
+	color: #FF6600;
 	text-decoration: none;
 }
 .contact-block .contact-row > p {
@@ -572,7 +586,7 @@ blockquote > footer {
 }
 
 .contact-block .contact-row > span {
-	color: #E7003E;
+	color: #FF6600;
 	font-size: 1.3em;
 	display: block;
 	top: 4px;
@@ -592,7 +606,7 @@ blockquote > footer {
 .contact-block input[class="form-control"]:focus,
 .contact-block textarea[class="form-control"]:focus {
 	border: none;
-	border-bottom: solid 1px #E7003E;
+	border-bottom: solid 1px #FF6600;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(231, 0, 62, .6);
     -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(231, 0, 62, .6);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(231, 0, 62, .6);
