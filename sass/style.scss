@@ -452,6 +452,41 @@ section.dark-gray {
   color: #52565b;
 }
 
+/*					Zdjęcia						   */
+/*=================================================*/
+#images {
+	padding-top: 100px;
+	// background-color: #666666;
+
+	.row {
+	  width: 100%;
+	  display: flex;                  /* establish flex container */
+	  flex-direction: row;            /* default value; can be omitted */
+	  flex-wrap: nowrap;              /* default value; can be omitted */
+	  justify-content: space-between; /* switched from default (flex-start, see below) */
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align: center;
+	  margin-bottom: 50px;
+	}
+}
+
+.flota-img {
+	padding: 0;
+	// border: red 1px solid;
+	width: 30%;
+
+	img {
+		width: 100%;
+		image-size: cover;
+		transition: transform 0.1s ease-in-out;
+
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}
+
 
 /*					Stellar						   */
 /*=================================================*/
@@ -783,9 +818,14 @@ footer > p strong:hover {
 	blockquote > footer {
 		font-size: 1em;
 	}
+
+	#images .row {
+		display: inline-block !important;
+	}
 }
 
 @media (max-width: 480px) {
+
 	.tlo > #box h1 {
 		font-size: 2.0em;
 	}
