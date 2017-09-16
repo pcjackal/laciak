@@ -468,17 +468,19 @@ section.dark-gray {
 	  margin-right: auto;
 	  text-align: center;
 	  margin-bottom: 50px;
+	  // border: solid 1px red;
 	}
 }
 
 .flota-img {
 	padding: 0;
 	// border: red 1px solid;
-	width: 30%;
+	width: 23%;
+	overflow: hidden;
 
 	img {
 		width: 100%;
-		image-size: cover;
+		
 		transition: transform 0.1s ease-in-out;
 
 		&:hover {

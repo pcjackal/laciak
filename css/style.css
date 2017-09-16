@@ -490,11 +490,11 @@ section.dark-gray {
 
 .flota-img {
   padding: 0;
-  width: 30%;
+  width: 23%;
+  overflow: hidden;
 }
 .flota-img img {
   width: 100%;
-  image-size: cover;
   transition: transform 0.1s ease-in-out;
 }
 .flota-img img:hover {
