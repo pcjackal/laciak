@@ -476,15 +476,15 @@ section.dark-gray {
 	padding: 0;
 	// border: red 1px solid;
 	width: 23%;
-	overflow: hidden;
+	overflow: hidden !important;
 
 	img {
 		width: 100%;
 		
-		transition: transform 0.1s ease-in-out;
+		transition: transform 0.2s ease-in-out;
 
 		&:hover {
-			transform: scale(1.1);
+			transform: scale(1.3);
 		}
 	}
 }
