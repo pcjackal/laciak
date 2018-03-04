@@ -113,6 +113,18 @@ body {
   z-index: 100;
 }
 
+.sticky {
+  border-top: solid black 2px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  background-color: rgba(0,0,0, 0.9) !important;
+  box-shadow: 0 1px 5px #666666;
+  z-index: 100;
+}
+
 /*					Carousel					   */
 /*=================================================*/
 #carousel {

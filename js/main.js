@@ -147,3 +147,23 @@ var flotaAnimate = function( e, upToHeight, maxImgSize = 140, speed = 250 ) {
          e.preventDefault();
       });
    };
+
+   //##############  PRZYKLAJANE MENU   ##########################
+$(document).ready(function() {
+	var NavY = $('nav').offset().top;
+
+	var stickyNav = function() {
+		var ScrollY = $(window).scrollTop();
+		if (ScrollY > NavY+200) { 
+			$('nav').addClass('sticky');
+		} else {
+			$('nav').removeClass('sticky'); 
+		}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+});
